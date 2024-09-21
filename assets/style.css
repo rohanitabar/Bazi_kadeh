@@ -9,3 +9,9 @@
         /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
         url('../fonts/tanha-font-v0.9/Tanha.woff2') format('truetype');
 }
+
+.logo{
+    width: 200px;
+    height: 150px;
+    margin-right: 2%;
+}
