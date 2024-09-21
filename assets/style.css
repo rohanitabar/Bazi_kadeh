@@ -1,0 +1,11 @@
+@font-face {
+    font-family: shabnam;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/tanha-font-v0.9/Tanha.eot');
+    src: url('../fonts/tanha-font-v0.9/Tanha.ttf') format('embedded-opentype'),
+        /* IE6-8 */
+        url('../fonts/tanha-font-v0.9/Tanha.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('../fonts/tanha-font-v0.9/Tanha.woff2') format('truetype');
+}
