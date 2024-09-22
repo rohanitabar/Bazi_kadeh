@@ -11,6 +11,7 @@
 }
 body{
     background-color: #ffd000 ;
+    overflow-x: hidden;
 }
 .logo{
     width: 200px;
