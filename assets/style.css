@@ -9,20 +9,112 @@
         /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
         url('../fonts/tanha-font-v0.9/Tanha.woff2') format('truetype');
 }
-body{
-    background-color: #ffd000 ;
+
+body {
+    background-color: #ffd000;
     overflow-x: hidden;
 }
-.logo{
+
+.logo {
     width: 200px;
     height: 150px;
     margin-right: 2%;
 }
-.menu{
-    background-color:#ffd000;
+
+.menu {
+    background-color: #ffd000;
 }
-.offcanvas{
-    background-color:#ffd000;
+
+.offcanvas {
+    background-color: #ffd000;
     font-size: 20px;
 
+}
+
+.dropdown-menu {
+    transition: ease-in-out 0.5s;
+}
+
+.dropdown-items:hover:hover {
+    transition: ease-in 0.3s;
+}
+
+.card a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card-body h5 {
+    text-align: center;
+}
+
+footer {
+    margin-top: 25px;
+    margin-right: 200px;
+    width: 1400px;
+    height: 510px;
+    background-color: #302f2c;
+    color: #fff;
+}
+
+.ejtemaei h4 {
+    padding-top: 30px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: underline #ffd000;
+}
+
+.ejtemaei p {
+    padding-right: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    width: 500px;
+}
+
+.me-2 {
+    width: 300px;
+}
+
+.label{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-weight: 500;
+    text-decoration: underline #ffd000;
+}
+.majazi{
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.f-majazi{
+    margin-top: 15px;
+    margin-right: 210px;
+    display: inline-block;
+}
+
+.table h5{
+    margin-right: 25px;
+    display: inline-block;
+    text-decoration: underline #ffd000;
+}
+
+.table ul{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.table ul li{
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    color: #adadad;
+    margin-right: -10px;
+}
+.table ul li:hover{
+    transition: ease-in-out 0.3s;
+    color: #fff;
 }
