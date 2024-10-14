@@ -14,6 +14,7 @@ body {
     background-color: #ffd000;
     overflow-x: hidden;
     font-family: shabnam;
+    direction: rtl;
 }
 
 .logo {
@@ -63,6 +64,9 @@ body {
     background-color: #d1af14;
 }
 
+.posts{
+    margin-right: 120px;
+}
 
 .row{
     text-align: start;
