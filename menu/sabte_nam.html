@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>بازی کده | ورود</title>
+    <title>بازی کده | ثبت نام</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../assets/bootstrap.rtl.min.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../assets/style.css'>
@@ -60,8 +60,55 @@
             </div>
         </nav>
     </header>
-    <main>
-        
+    <main style="margin-top:15%;">
+        <form class="row g-3" style="margin-right: 2px;">
+            <div class="col-md-4">
+              <label for="validationServer01" class="form-label">نام</label>
+              <input type="text" class="form-control is-invalid" id="validationServer01">
+              <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                لطفا نامت رو بهمون بگو
+            </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationServer02" class="form-label">نام خانوادگی</label>
+              <input type="text" class="form-control is-invalid" id="validationServer02">
+              <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                لطفا نام خانوداگیتو بهمون بگو
+            </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationServerUsername" class="form-label">نام کاربری</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    لطفا یه نام کاربری انتخاب کن
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationServer05" class="form-label">ایمیل</label>
+              <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+              <div id="validationServer05Feedback" class="invalid-feedback">
+                لطفا ایمیلتو بهمون بگو
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-check" style="margin-right: 600px;">
+                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                <label class="form-check-label" for="invalidCheck3">
+                  قوانین را خواندم و میپذیرم <a href="" style="text-decoration: none;">قوانین و مقرررات</a>
+                </label>
+                <div id="invalidCheck3Feedback" class="invalid-feedback">
+                  تو باید قنوانین ما رو بپذیری
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-outline-dark" type="submit" style="margin-right: 650px;">ثبت نام</button>
+            </div>
+          </form>
     </main>
     <footer>
         <div class="row">
