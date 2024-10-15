@@ -110,10 +110,14 @@ body {
     background-color: #eeeeee;
 }
 
+.s1{
+    margin-left: 5px;
+}
+
 footer {
     margin-top: 25px;
     width: 1400px;
-    height: 510px;
+    height: 470px;
     background-color: #302f2c;
     color: #fff;
     font-family: shabnam;
@@ -184,8 +188,13 @@ footer {
     font-weight: 400;
     color: #adadad;
     margin-right: -30px;
-    -webkit-user-select: none;
+    -webkit-user-select:none;
     user-select: contain;
+}
+
+.table a{
+    background-color: transparent;
+    color: #302f2c;
 }
 
 .table ul li:hover {
