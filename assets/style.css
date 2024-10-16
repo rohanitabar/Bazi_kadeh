@@ -191,7 +191,7 @@ footer {
 
 .table a {  
     background-color: transparent;  
-    color: #302f2c;  
+    color: #adadad; 
 }  
 
 .table ul li:hover {  
@@ -208,6 +208,7 @@ footer {
 }  
 
 .text-1 {  
+    color: #adadad;
     list-style-type: none;
     padding: 0px;
 }  
