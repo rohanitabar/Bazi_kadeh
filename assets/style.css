@@ -10,17 +10,15 @@
         url('../fonts/tanha-font-v0.9/Tanha.woff2') format('truetype');
 }
 
-body {
-    background-color: #ffd000;
-    overflow-x: hidden;
+body {  
+    background-color: #ffd000; 
     font-family: shabnam;
     direction: rtl;
-}
-
-body {  
-    font-family: 'Arial', sans-serif;  
-    background-color: #ffd000; 
+    overflow-x: hidden;
 }  
+
+main{
+}
 
 .navbar {  
     background-color: #343a40;
